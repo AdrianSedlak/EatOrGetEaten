@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NaturalSelection.iml" filepath="$PROJECT_DIR$/NaturalSelection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EatOrGetEaten.iml" filepath="$PROJECT_DIR$/EatOrGetEaten.iml" />
     </modules>
   </component>
 </project>
