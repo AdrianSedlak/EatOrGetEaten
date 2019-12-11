@@ -6,7 +6,6 @@ public class Unit {
     }
 
     public void Unit(String prop){
-        new Unit();
         setProperty(prop);
     }
 
