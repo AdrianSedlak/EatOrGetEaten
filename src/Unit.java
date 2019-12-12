@@ -1,7 +1,7 @@
 public class Unit {
     private String property;
     private int choice;
-    private int stomache;
+    private double stomache;
 
     public Unit(String prop){
         this.property = prop;
@@ -20,4 +20,13 @@ public class Unit {
     public String getProperty(){
         return this.property;
     }
+
+    public void setStomache(double food){
+        this.stomache = food;
+    }
+
+    public double getStomache(){
+        return this.stomache;
+    }
+
 }

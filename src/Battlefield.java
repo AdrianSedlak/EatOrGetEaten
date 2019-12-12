@@ -10,6 +10,7 @@ public class Battlefield {
         Battlefield(20, 10);
         choices();
         evaluation();
+        finalAct();
     }
 
     public static void Battlefield(int eat, int fighters){
@@ -38,6 +39,18 @@ public class Battlefield {
                     count = count + 1;
             }
             System.out.println(choices.get(i) + "occurse" + count);
+        }
+    }
+
+
+    public static void finalAct(){
+        Random rand = new Random();
+        for(int i = 0; i < Fighters.size(); i++){
+            if(Fighters.get(i).getStomache() < 100){
+                if(rand.nextInt(100) > Fighters.get(i).getStomache()){
+
+                }
+            }
         }
     }
 }
